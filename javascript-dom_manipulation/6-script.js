@@ -6,3 +6,4 @@ fetch("https://swapi-api.hbtn.io/api/people/5/?format=json")
   .catch((error) => {
     console.error("Error fetching character:", error);
   });
+  
